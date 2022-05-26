@@ -1,0 +1,15 @@
+.principal__information{
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+
+.cards__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,260px));
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 5rem;
+}

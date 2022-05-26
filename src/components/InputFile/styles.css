@@ -1,0 +1,23 @@
+ .img{  
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+input[type="file"] {
+    visibility: hidden;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 320px;
+    max-height: 250px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}

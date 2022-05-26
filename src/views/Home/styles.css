@@ -1,0 +1,28 @@
+.button__styles{
+    align-self: flex-end;
+}
+.inputs__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 800px){
+.form-home--view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 600px;
+
+}
+.input-file__wrap{
+    height: 100%;
+
+}
+
+
+}

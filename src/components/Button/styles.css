@@ -1,0 +1,16 @@
+.primary__button{
+    width: 50%;
+    height: 35px;
+    background-color: rgb(17, 195, 255);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 6px;
+}
+
+@media screen and (min-width:800px){
+    .primary__button{
+        height: 40px;
+    }
+
+}

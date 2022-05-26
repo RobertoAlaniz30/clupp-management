@@ -1,0 +1,16 @@
+.form__container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 100%;
+    max-width: 320px;
+    gap: 1.4rem;
+    align-items: flex-end;
+}
+
+@media screen and (min-width: 800px){
+    .form__container{
+        align-items: center;
+        justify-content: center;
+    }
+}
